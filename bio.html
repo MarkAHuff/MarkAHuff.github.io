@@ -7,12 +7,16 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color:yellow;
+table#navigation a:link{
+	color: #b8bcc4;
 }
 
-a:hover {
-	color:lightBlue;
+table#navigation a:visited {
+	color: #6ae2d4;
+}
+
+table#navigation a:hover, table#navigation a:active {
+	color: white;
 }
 
 p {
@@ -24,16 +28,15 @@ th {
 }
 
 table#navigation{
-   border: 1px solid black;
+   border: 5px solid black;
    border-collapse: collapse;
    background-color: black;
    width: 100%;
 }
 
 table#navigation td {
-	font: 12px arial, sans-serif;
+	font: 15px arial, sans-serif;
 	width: 33%;
-	font-weight: bold;
 	text-align: center;
 }
 
@@ -64,7 +67,8 @@ table#quote, table#quote td{
 
 </style>
 
-<title>About Me</title>
+<link rel="icon" href="CatIcon.png" sizes="16x16" type="image/png">
+<title>Huff Bio</title>
 </head>
 
 <body>
@@ -73,6 +77,7 @@ table#quote, table#quote td{
 <tr>
 <td>
 <a href="index.html">HOME</a>&emsp;
+<a href="bio.html" style="font-weight: bold;">ABOUT ME</a>&emsp;
 <a href="projects.html">PROJECTS</a>&emsp;
 <a href="contact.html">CONTACT</a>
 </td>
@@ -89,7 +94,7 @@ table#quote, table#quote td{
 
 	<td>
 		<center>
-			<p style="font: 35px arial, sans-serif"><b>About Me</b></p>
+			<p style="font: 35px arial, sans-serif">About Me</p>
 
 			<p>I started my academic career at New Mexico Technical Institute, and then finished up at Southern Oregon University. I graduated with a Major in Computer Science and a Business Administration Minor.</p> 
 
@@ -97,7 +102,7 @@ table#quote, table#quote td{
 
 			<p>If you live in Portland, Oregon, I'd love to hear about any 	opportunities or projects you might have. </p>
 
-			<p>Here's my full <a href="Resume.pdf" target="_blank" style="color:violet">resume</a>.</p>
+			<p>Here's my full <a href="Resume.pdf" target="_blank" style="color:lightBlue">resume</a>.</p>
 
 			<p>Also, I like cats.<br><br>
 				<img src="CatIcon.png" style="width:20%">
@@ -135,9 +140,10 @@ table#quote, table#quote td{
 
 <center>
 <p>
-	<a href="index.html" style="color:DarkBlue">HOME </a>//
-	<a href="projects.html" style="color:DarkBlue">PROJECTS </a>//
-	<a href="contact.html" style="color:DarkBlue"> CONTACT</a>
+<a href="index.html" style="color:DarkBlue">HOME </a>//
+<a href="bio.html" style="color:DarkBlue;font-weight: bold;">ABOUT ME </a>//
+<a href="projects.html" style="color:DarkBlue">PROJECTS </a>//
+<a href="contact.html" style="color:DarkBlue"> CONTACT</a>
 </p>
 </center>
 

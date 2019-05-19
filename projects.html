@@ -12,12 +12,17 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color:yellow;
+
+table#navigation a:link{
+	color: #b8bcc4;
 }
 
-a:hover {
-	color:lightBlue;
+table#navigation a:visited {
+	color: #6ae2d4;
+}
+
+table#navigation a:hover, table#navigation a:active {
+	color: white;
 }
 
 p, ul, figcaption{
@@ -28,17 +33,20 @@ figcaption {
 	color: black;
 }
 
+li {
+	list-style-position: inside;
+}
+
 table#navigation{
-   border: 1px solid black;
+   border: 5px solid black;
    border-collapse: collapse;
    background-color: black;
    width: 100%;
 }
 
 table#navigation td {
-	font: 12px arial, sans-serif;
+	font: 15px arial, sans-serif;
 	width: 33%;
-	font-weight: bold;
 	text-align: center;
 }
 
@@ -64,7 +72,8 @@ table#quote {
 
 </style>
 
-<title>Projects</title>
+<link rel="icon" href="CatIcon.png" sizes="16x16" type="image/png">
+<title>Huff Projects</title>
 
 </head>
 <body>
@@ -74,6 +83,7 @@ table#quote {
 <td>
 <a href="index.html">HOME</a>&emsp;
 <a href="bio.html">ABOUT ME</a>&emsp;
+<a href="projects.html" style="font-weight: bold;">PROJECTS</a>&emsp;
 <a href="contact.html">CONTACT</a>
 </td>
 <tr>
@@ -81,7 +91,17 @@ table#quote {
 
 <img src="Banner.png" style="width:100%"> 
 
-<p style="width:100%; background-color:#197a0b; color:#f4f111; text-align:center; font: 20px arial, sans-serif; padding: 10px">Projects</p>
+
+<table style="width:100%; background-color:#197a0b; color:#f4f111; text-align:center; font: 30px arial, sans-serif; padding: 10px">
+<tr>
+<td>
+Projects
+<!--<p style="width:100%; background-color:#197a0b; color:#f4f111; text-align:center; font: 30px arial, sans-serif; padding: 10px">Projects</p>-->
+</td>
+</tr>
+</table>
+
+
 
 <table id="projectTable" cellpadding="35">
 
@@ -124,15 +144,15 @@ table#quote {
 		<a href="https://dymaptic.com/" target="_blank" style="color:lightBlue">Dymaptic</a> that developed features for a tablet application used by field workers of an oil and gas construction company who were unable to access wi-fi connections. The app recorded GIS survey points to inspect underground pipelines and document their condition for integrity management plans demonstrating compliance to safety regulations.  Once recorded by the app, the information was then uploaded to an on-premise DynamoDB database. Survey data included images, electric current readings and field notes.</p>
 		
 		<p>As a member of the coding team, I enjoyed collaborating with my teammates to create useful products that helped people get their jobs done. I received new feature assignments in sprint rounds, developed code, and did unit testing. I also worked on an in-house project that used the <a href="https://www.esri.com/en-us/home" target="_blank" style="color:lightBlue"> ESRI </a> software ArcGIS Online and open source resources on GitHub.</p>
+		
+		<p>I would like to do more with GIS data.
+		</p>
 	<center>
 </td>
-<td bgcolor="#6ae2d4">
-	<center>
+<td bgcolor="#6ae2d4" text-align="center">
 		<figure>
-		<img src="GISProject.png" style="width:100%"> 
-		<figcaption></figcaption>
+		<img src="GISProject.png" style="width:110%"> 
 		</figure>
-	<center>
 </td>
 </tr>
 
@@ -187,6 +207,7 @@ New Mexico Tech
 <p>
 <a href="index.html" style="color:DarkBlue">HOME </a>//
 <a href="bio.html" style="color:DarkBlue">ABOUT ME </a>//
+<a href="projects.html" style="color:DarkBlue;font-weight: bold;">PROJECTS </a>//
 <a href="contact.html" style="color:DarkBlue"> CONTACT</a>
 </p>
 </center>

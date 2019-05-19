@@ -7,12 +7,16 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color:DarkBlue;
+table#navigation a:link{
+	color: #b8bcc4;
 }
 
-a:hover {
-	color:Green;
+table#navigation a:visited {
+	color: #6ae2d4;
+}
+
+table#navigation a:hover, table#navigation a:active {
+	color: white;
 }
 
 p {
@@ -28,29 +32,20 @@ table#contacts {
 }
 
 table#contacts td{
-	padding-left: 25%;
+	padding-left: 45.5%;
 }
 
 table#navigation{
-   border: 1px solid black;
+   border: 5px solid black;
    border-collapse: collapse;
    background-color: black;
    width: 100%;
 }
 
 table#navigation td {
-	font: 12px arial, sans-serif;
+	font: 15px arial, sans-serif;
 	width: 33%;
-	font-weight: bold;
 	text-align: center;
-}
-
-table#navigation a:visited {
-	color:yellow;
-}
-
-table#navigation a:hover {
-	color:lightBlue;
 }
 
 table#quote {
@@ -62,8 +57,8 @@ table#quote {
 }
 
 </style>
-
-<title>Contact Me</title>
+<link rel="icon" href="CatIcon.png" sizes="16x16" type="image/png"> 
+<title>Huff Contacts</title>
 </head>
 <body>
 
@@ -72,31 +67,41 @@ table#quote {
 <td>
 <a href="index.html">HOME</a>&emsp;
 <a href="bio.html">ABOUT ME</a>&emsp;
-<a href="projects.html">PROJECTS</a>
+<a href="projects.html">PROJECTS</a>&emsp;
+<a href="contact.html" style="font-weight: bold;">CONTACT</a>
 </td>
 <tr>
 </table>
 
 <img src="Banner.png" style="width:100%"> 
 
-<p style="width:100%; background-color:#197a0b; color:#f4f111; text-align:center; font: 20px arial, sans-serif; padding: 10px">Contacts</p>
-
+<table style="width:100%; background-color:#197a0b; color:#f4f111; text-align:center; font: 30px arial, sans-serif; padding: 10px">
+<tr>
+<td>
+Contacts
+<!--<p style="width:100%; background-color:#197a0b; color:#f4f111; text-align:center; font: 30px arial, sans-serif; padding: 10px">Contacts</p>-->
+</td>
+</tr>
+</table>
 
 <center><p>Welcome to my contacts page. Here are some of the ways to view my projects and connect with me.</p></center>
 
 <table id="contacts" cellpadding="10">
 
 <tr>
-<td><img src="Email.png" style="width:3%;vertical-align:text-bottom"> huffmark4@gmail.com</td>
+<td>
+<img src="Email.png" style="width:3%;vertical-align:text-bottom"> huffmark4@gmail.com</td> 
 </tr>
 
 <tr>
-<td><img src="LinkedIn.png" style="width:3%;vertical-align:text-bottom">
+<td>
+<img src="LinkedIn.png" style="width:3%;vertical-align:text-bottom">
 <a href="https://www.linkedin.com/in/markahuff/">LinkedIn</a></td>
 </tr>
 
 <tr>
-<td><img src="GitHub.png" style="width:3%;vertical-align:text-bottom">
+<td>
+<img src="GitHub.png" style="width:3%;vertical-align:text-bottom">
 <a href="https://github.com/MarkAHuff">GitHub</a></td>
 </tr>
 
@@ -110,7 +115,7 @@ table#quote {
 <td>
 	<center>
 		<p align="left" style="font-style: italic; color: black;width:80%">
-		<img src="Quote.png" style="width:5%">Dependable, organized and a good communicator.
+		<img src="Quote.png" style="width:5%">Dependable, organized and a good communicator. I am certain that the skills and abilities he has developed will allow him to excel at any job.
 		</p>
 	<center>
 </td>
@@ -120,7 +125,7 @@ table#quote {
 <td>
 <center>
 <p align="right" style="color: black;width:80%">
-<b>Alison Colvin Coordinator, Residence Halls</b><br>
+<b>Alison Colvin, Coordinator, Residence Halls</b><br>
 New Mexico Institute of Mining and Technology
 </p>
 </center>
@@ -132,7 +137,8 @@ New Mexico Institute of Mining and Technology
 <p>
 <a href="index.html" style="color:DarkBlue">HOME </a>//
 <a href="bio.html" style="color:DarkBlue">ABOUT ME </a>//
-<a href="projects.html" style="color:DarkBlue"> PROJECTS</a>
+<a href="projects.html" style="color:DarkBlue">PROJECTS </a>//
+<a href="contact.html" style="color:DarkBlue;font-weight: bold;"> CONTACT</a>
 </p>
 </center>
 
